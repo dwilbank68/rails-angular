@@ -27,6 +27,7 @@ gem 'spring',        group: :development
 
 gem 'sass', '3.2.19'
 group :test, :development do
+  gem 'pg'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'capybara'
